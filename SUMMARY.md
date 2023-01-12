@@ -5,7 +5,6 @@
 ## 购买VPS
 
 * [netcup免税教程(人人都能过)](gou-mai-vps/netcup-mian-shui-jiao-cheng-ren-ren-du-neng-guo.md)
-* [Page 2](gou-mai-vps/page-2.md)
 
 ## prober
 
