@@ -19,14 +19,21 @@
 
 ![](../.gitbook/assets/image.png)
 
-### 3.使用API获取DNS记录的ID <a href="#shi-yong-api-huo-qu-dns-ji-lu-de-id" id="shi-yong-api-huo-qu-dns-ji-lu-de-id"></a>
+### 3.使用API获取DNS记录的ID(获取子域名ID) <a href="#shi-yong-api-huo-qu-dns-ji-lu-de-id" id="shi-yong-api-huo-qu-dns-ji-lu-de-id"></a>
 
 ```
+curl -sSX GET "https://api.cloudflare.com/client/v4/zones/域名的zoneid/dns_records?type=A&name=子域名" -H "X-Auth-Email:注册邮箱" -H "X-Auth-Key:CF的API令牌" -H "Content-Type: application/json"|jq ".result[].id"|sed "s/\"//g"
 ```
 
+命令实例：
 
+curl -sSX GET "https://api.cloudflare.com/client/v4/zones/99e0163a23edc1cc0f56789c0ae12345/dns\_records?type=A\&name=sg999.xgh1.com" -H "X-Auth-Email:lizi@gmail.com" -H "X-Auth-Key:3bb1226f1234e6eb7c7796185d8925b123456" -H "Content-Type: application/json"|jq ".result\[].id"|sed "s/"//g"
 
+回显实例：
 
+c1010000d55b132f3c9d3aaa668f1292
+
+4.修改子域名
 
 
 
