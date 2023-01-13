@@ -28,6 +28,7 @@
 * [申请泛域名证书](fq/shen-qing-fan-yu-ming-zheng-shu.md)
 * [cloudflare自选IP+caddy2反代](fq/untitled.md)
 * [CloudFlare自选IP 并自动修改DNSPOD](fq/cloudflare-zi-xuan-ip-bing-pei-zhi-dns-she-zhi-15-fen-zhong-zi-dong-geng-huan-xin-ip-jia-kuai-wang-z.md)
+* [自动修改cf域名](fq/zi-dong-xiu-gai-cf-yu-ming.md)
 * [Caddy2 简明教程](fq/caddy2-jian-ming-jiao-cheng.md)
 
 ## 甲骨文

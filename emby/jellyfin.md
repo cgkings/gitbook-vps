@@ -23,7 +23,7 @@ reboot
 {% endtab %}
 {% endtabs %}
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 ### 2、字幕中文显示方框
 
