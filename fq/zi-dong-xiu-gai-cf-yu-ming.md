@@ -56,12 +56,12 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/<mark style="color:red;"
 
 {% tab title="windows" %}
 ```
-// Some code
+curl -X PUT "https://api.cloudflare.com/client/v4/zones/域名zoneid值/dns_records/子域名DNS记录id值" -H "X-Auth-Key: CF账号API令牌" -H "X-Auth-Email: CF账号注册邮箱" -H "Content-Type: application/json" --data "{\"type\":\"A\",\"name\":\"子域名完整域名\",\"content\":\"修改为该IP值\",\"ttl\":1,\"proxied\":false}"
 ```
 
 命令实例：
 
-curl -X PUT "https://api.cloudflare.com/client/v4/zones/7aaf1fbbf6296d6a70a20392244cfac0/dns\_records/676bd05029c2b24712c41205ae85813f" -H "X-Auth-Key: 3aa9e26f7500e6eb7c7796185d2505b22ecad" -H "X-Auth-Email: cgkings@gmail.com" -H "Content-Type: application/json" --data "{"type":"A","name":"test.00544.tech","content":"4.4.4.4","ttl":1,"proxied":false}"
+curl -X PUT "https://api.cloudflare.com/client/v4/zones/域名zoneid值/dns\_records/子域名DNS记录id值" -H "X-Auth-Key: CF账号API令牌" -H "X-Auth-Email: CF账号注册邮箱" -H "Content-Type: application/json" --data "{"type":"A","name":"子域名完整域名","content":"修改为该IP值","ttl":1,"proxied":false}"
 {% endtab %}
 {% endtabs %}
 
