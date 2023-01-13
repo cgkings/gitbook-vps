@@ -33,7 +33,21 @@ curl -sSX GET "https://api.cloudflare.com/client/v4/zones/99e0163a23edc1cc0f5678
 
 c1010000d55b132f3c9d3aaa668f1292
 
-4.修改子域名
+### 4.修改子域名
 
+You cannot use this API for domains with a .cf, .ga, .gq, .ml, or .tk TLD (top-level domain)
 
+如上，cloudflare不支持上述域名
+
+```
+curl -X PUT "https://api.cloudflare.com/client/v4/zones/域名zoneid/dns_records/子域名DNS记录id" -H "X-Auth-Key: CF账号API令牌" -H "X-Auth-Email: cgkings@gmail.com" -H "Content-Type: application/json" --data '{"type":"A","name":"子域名完整域名","content":"修改目标解析IP","ttl":1,"proxied":false}'
+```
+
+命令实例：
+
+curl -X PUT "https://api.cloudflare.com/client/v4/zones/7aaf1fbbf6296d6a70a20392244cfac0/dns\_records/676bd05029c2b24712c41205ae85813f" -H "X-Auth-Key: 3aa9e26f7500e6eb7c7796185d2505b22ecad" -H "X-Auth-Email: cgkings@gmail.com" -H "Content-Type: application/json" --data '{"type":"A","name":"test.00544.tech","content":"3.3.3.3","ttl":1,"proxied":false}'
+
+回显实例：
+
+{"result":{"id":"xxxx","zone\_id":"xxxx","zone\_name":"xxxx","name":"xxxx","type":"A","content":"xxxx","proxiable":false,"proxied":false,"ttl":1,"locked":false,"meta":{"auto\_added":false,"managed\_by\_apps":false,"managed\_by\_argo\_tunnel":false,"source":"primary"},"comment":null,"tags":\[],"created\_on":"2023-01-13T06:57:29.060266Z","modified\_on":"2023-01-13T08:43:47.176831Z"},<mark style="color:blue;background-color:red;">"success":true</mark>,"errors":\[],"messages":\[]}
 
