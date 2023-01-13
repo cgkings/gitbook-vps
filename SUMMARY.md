@@ -24,6 +24,7 @@
 
 ## FQ
 
+* [windows安装curl sed](fq/windows-an-zhuang-curl-sed.md)
 * [Heroku 搭建 V2+CF 方法教程](fq/heroku-da-jian-v2+cf-fang-fa-jiao-cheng.md)
 * [申请泛域名证书](fq/shen-qing-fan-yu-ming-zheng-shu.md)
 * [cloudflare自选IP+caddy2反代](fq/untitled.md)
