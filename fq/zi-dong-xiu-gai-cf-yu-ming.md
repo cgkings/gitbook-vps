@@ -39,8 +39,10 @@ You cannot use this API for domains with a .cf, .ga, .gq, .ml, or .tk TLD (top-l
 
 如上，cloudflare不支持上述域名
 
+{% tabs %}
+{% tab title="Linux" %}
 ```
-curl -X PUT "https://api.cloudflare.com/client/v4/zones/域名zoneid/dns_records/子域名DNS记录id" -H "X-Auth-Key: CF账号API令牌" -H "X-Auth-Email: lizi@gmail.com" -H "Content-Type: application/json" --data '{"type":"A","name":"子域名完整域名","content":"修改目标解析IP","ttl":1,"proxied":false}'
+curl -X PUT "https://api.cloudflare.com/client/v4/zones/域名zoneid值/dns_records/子域名DNS记录id值" -H "X-Auth-Key: CF账号API令牌" -H "X-Auth-Email: CF账号注册邮箱" -H "Content-Type: application/json" --data '{"type":"A","name":"子域名完整域名","content":"修改为该IP值","ttl":1,"proxied":false}'
 ```
 
 命令实例：
@@ -50,4 +52,28 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/<mark style="color:red;"
 回显实例：
 
 {"result":{"id":"xxxx","zone\_id":"xxxx","zone\_name":"xxxx","name":"xxxx","type":"A","content":"xxxx","proxiable":false,"proxied":false,"ttl":1,"locked":false,"meta":{"auto\_added":false,"managed\_by\_apps":false,"managed\_by\_argo\_tunnel":false,"source":"primary"},"comment":null,"tags":\[],"created\_on":"2023-01-13T06:57:29.060266Z","modified\_on":"2023-01-13T08:43:47.176831Z"},<mark style="color:blue;background-color:red;">"success":true</mark>,"errors":\[],"messages":\[]}
+{% endtab %}
+
+{% tab title="windows" %}
+```
+// Some code
+```
+
+命令实例：
+
+curl -X PUT "https://api.cloudflare.com/client/v4/zones/7aaf1fbbf6296d6a70a20392244cfac0/dns\_records/676bd05029c2b24712c41205ae85813f" -H "X-Auth-Key: 3aa9e26f7500e6eb7c7796185d2505b22ecad" -H "X-Auth-Email: cgkings@gmail.com" -H "Content-Type: application/json" --data "{"type":"A","name":"test.00544.tech","content":"4.4.4.4","ttl":1,"proxied":false}"
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
+
+
+
+
+
+
+
 
