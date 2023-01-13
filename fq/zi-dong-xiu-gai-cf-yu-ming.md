@@ -59,9 +59,9 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/<mark style="color:red;"
 curl -X PUT "https://api.cloudflare.com/client/v4/zones/域名zoneid值/dns_records/子域名DNS记录id值" -H "X-Auth-Key: CF账号API令牌" -H "X-Auth-Email: CF账号注册邮箱" -H "Content-Type: application/json" --data "{\"type\":\"A\",\"name\":\"子域名完整域名\",\"content\":\"修改为该IP值\",\"ttl\":1,\"proxied\":false}"
 ```
 
-命令实例：
+实例：
 
-curl -X PUT "https://api.cloudflare.com/client/v4/zones/域名zoneid值/dns\_records/子域名DNS记录id值" -H "X-Auth-Key: CF账号API令牌" -H "X-Auth-Email: CF账号注册邮箱" -H "Content-Type: application/json" --data "{"type":"A","name":"子域名完整域名","content":"修改为该IP值","ttl":1,"proxied":false}"
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

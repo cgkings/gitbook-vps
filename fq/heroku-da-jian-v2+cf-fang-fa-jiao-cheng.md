@@ -53,5 +53,5 @@ v2ray设置
 
 clash设置
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (30) (1).png>)
 
