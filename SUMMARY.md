@@ -16,6 +16,7 @@
 * [部署攻略=》X-UI](linux/fq-da-jian-gong-ju-jie-shao.md)
 * [部署攻略=》订阅转换器](linux/bu-shu-gong-lve-ding-yue-zhuan-huan-qi.md)
 * [部署攻略=》MyUrls](linux/bu-shu-gong-lve-myurls.md)
+* [Debian 10 搭建caddy2+php7.4+MySQL8.0+WordPress网站](linux/debian-10-da-jian-caddy2+php7.4+mysql8.0+wordpress-wang-zhan.md)
 
 ## EMBY & jellyfin <a href="#emby" id="emby"></a>
 
