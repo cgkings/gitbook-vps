@@ -1,6 +1,7 @@
 # Table of contents
 
 * [说明](README.md)
+* [V.PS轮段脚本](v.ps-lun-duan-jiao-ben.md)
 
 ## 购买VPS
 
