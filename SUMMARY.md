@@ -2,6 +2,7 @@
 
 * [说明](README.md)
 * [V.PS轮段脚本](v.ps-lun-duan-jiao-ben.md)
+* [全自动购买绿帽子云特价机器 也可以自己改下抢其它WHMCS的机](quan-zi-dong-gou-mai-lv-mao-zi-yun-te-jia-ji-qi-ye-ke-yi-zi-ji-gai-xia-qiang-qi-ta-whmcs-de-ji.md)
 
 ## 购买VPS
 
