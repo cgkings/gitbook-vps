@@ -9,6 +9,7 @@
 * [netcup免税教程(人人都能过)](gou-mai-vps/netcup-mian-shui-jiao-cheng-ren-ren-du-neng-guo.md)
 * [netcup相关规则介绍及注意事项，避坑指南](gou-mai-vps/netcup-xiang-guan-gui-ze-jie-shao-ji-zhu-yi-shi-xiang-bi-keng-zhi-nan.md)
 * [2023年最新Netcup企业、个人注册、免税和百分百德国机房VPS教程详解](gou-mai-vps/2023-nian-zui-xin-netcup-qi-ye-ge-ren-zhu-ce-mian-shui-he-bai-fen-bai-de-guo-ji-fang-vps-jiao-cheng.md)
+* [Netcup客户控制面板CCP与服务器控制面板SCP主要功能介绍](gou-mai-vps/netcup-ke-hu-kong-zhi-mian-ban-ccp-yu-fu-wu-qi-kong-zhi-mian-ban-scp-zhu-yao-gong-neng-jie-shao.md)
 
 ## prober
 
